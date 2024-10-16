@@ -1,0 +1,564 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+    html,body{
+        height: 100%;
+        width: 100%;
+        /* overflow: hidden; */
+
+    }
+
+    .nav{
+       display: flex;
+       height: 50px;
+       width: 100%;
+       /* background: #84a086; */
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+
+    .nav .nav_1{
+      width: 33%;
+      height: 100%;
+      display: flex;
+       display: flex;
+       justify-content: center;
+      align-items: center;
+      /* background: #9affda; */
+    }
+
+    .nav .nav_1 ul{
+     list-style: none;
+     display: flex;
+     gap: 15px;
+    }
+
+     .nav .nav_2{
+      width: 33%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* background: #0c7851; */
+      font-size: 26px;
+      font-family:Gill Sans;
+      font-style: italic;
+      font-size: 30px;
+    }
+
+    .nav .nav_3{
+      width: 33%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* background: #4ca74c; */
+      gap: 20px;
+    }
+    
+.nav .nav_3 .inp .search{
+  height: 100%;
+  width: 100%;
+  /* background-color: red; */
+  padding: 10px;
+  border-radius: 15px;
+  /* background-color: white; */
+
+}
+
+button{
+  /* background-color: aqua; */
+  padding: 8px;
+  margin: 3px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+    
+    
+      .hero_1{
+        height: 60vh;
+        width: 100%;
+        /* background-color: aqua; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+      }
+
+    .hero_1 h3 {
+        font-size: 80px;
+        font-weight: 500;
+        /* padding: 5px; */
+        width: 55%;
+        text-align: center;
+    }
+
+  
+    
+   .hero_1 p{
+        font-size: 30px;
+        font-weight: 500;
+        /* pad: 10px; */
+    }
+   .hero_1 #j2 {
+        font-size: 20px;
+        padding: 10px;
+        background-color: black;
+        color: whitesmoke;
+        border-radius: 15px;
+        
+    }
+    .hero_1 #j1{
+       font-size: 20px;
+       text-decoration: none;
+       /* background-color: blanchedalmond; */
+       border: 1px solid rgb(231, 222, 222);
+       border-radius: 10px;
+       height: 26px;
+    }
+
+  .hero_2 {
+    height: 100%px;
+    width: 100%;
+    margin-top: 0;
+    /* background-color: blue; */
+    display: flex;
+
+    
+  }
+  
+  .hero_2 .imgpart img{
+    height: 220px;
+    width: 130px;
+    /* margin: 3px; */
+    gap: 5px;
+    border-radius: 8px;
+    animation : all 2s linear 3s infinite normal
+  }
+
+   /* .hero_2 .imgpart img{
+     height:180px ;
+     width: 130px;
+   } */
+
+
+   .imgpart{
+    width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: end;
+
+   }
+
+    .hero_2  .imgpart .text{
+      height:40px;
+      width: 130px;
+      position: absolute;
+      /* background-color: red; */
+      display: flex;
+    
+      align-items: end;
+      justify-content:start;
+      background-color: transparent;
+
+      margin: 3px;
+      
+    }
+    .hero_2  .imgpart .text #dp{
+      height: 30px;
+      width:30px;
+      border-radius: 50%;
+      margin-left: 1px;
+    }
+
+    .hero_2  .imgpart .text .ri-heart-line:hover{
+       /* background-color: red; */
+       border-radius: 50%;
+    }
+       .hero_2  .imgpart .text p:hover{
+        color: aqua;
+        background-color: black;
+        border-radius: 3px;
+       }
+
+
+    h4{
+      font-size: 70px;
+      text-align: center;
+      font-weight: 200;
+    }
+ /* ------------------------------------------------------------------------------------------------------------------------------- */
+  .hero_JKS{
+    height: 50vh;
+    width: 100wh;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+  }
+  
+
+
+  hero_JKS_1{
+    height: 360px;
+    width: 300px;
+    
+    
+  }
+    .hero_JKS .jaggu1{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16797764/file/original-7467891ebf15af83c5078ec932a6ba84.png?resize=1200x900);
+    background-position: center;
+    background-size: cover;
+    
+  
+  }
+
+      .hero_JKS .jaggu2{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16780436/file/original-caced2e019ab06fad849a04b1d0e81b4.jpg?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+       .hero_JKS .jaggu3{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16550407/file/original-be6e6ec4234db9110b3e5fe63ae0cce7.jpg?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+         .hero_JKS .jaggu4{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16802237/file/original-9413d068070dad891373a437691045a6.png?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+         .hero_JKS .jaggu5{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16788687/file/original-9c4faca91929d68ffa2361f7055dd517.png?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
+         .hero_JKS .jaggu6{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16794433/file/original-bb60bfb881c37c83be6dc53b1bcdb193.png?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
+
+         .hero_JKS .jaggu7{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16806650/file/original-a54ec9cdaa2d21e041220c69c1a249d2.png?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+  
+         .hero_JKS .jaggu8{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16805340/file/still-2db767d355b367c0428776d17932d26a.png?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
+
+        .hero_JKS .jaggu9{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16734071/file/original-91c6669bc73806b80c52521a9351daa8.png?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
+         .hero_JKS .jaggu10{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16805783/file/original-b2dd648444a0aea9b10e77612f0cade7.png?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
+
+         .hero_JKS .jaggu11{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16798128/file/original-bbdf79880e26c52c716e3871c940392a.jpg?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+  
+         .hero_JKS .jaggu12{
+    height: 300px;
+    width: 300px;
+    /* background: #0311d4f1; */
+    background-image:url(https://cdn.dribbble.com/userupload/16805048/file/original-d90916e1693a2250f60c30648cc2ee1b.jpg?resize=400x300&vertical=center);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+   .hero_JKS .text2{
+    height: 60px;
+    width: 300px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+   gap: 5px;
+
+   }
+      .hero_JKS .text2 img{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+      }
+/* ----------------------------------------------------------------------------------------------------------------- */
+
+/* .brows_b .browse_btn{
+translate: 670px;
+margin: 20px;
+} */
+
+
+.browse_btn{
+translate: 620px;
+/* margin: 20px; */
+padding: 20px;
+font-size: 20px;
+border-radius: 15px;
+margin-bottom: 100px;
+margin-top: 30px;
+background-color: rgb(171, 187, 187);
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  */
+
+
+.hero_3{
+
+  height:100vh;
+  width: 100wh;
+  /* background-color: rgb(254, 224, 72); */
+  text-align: center;
+  font-size: 20px;
+}
+
+.hero_3 h5{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  text-align: center;
+  font-size: 180px;
+  /* width: 0vh; */
+   font-weight: lighter;
+ /* translate: 620px; */
+ margin: 30px;
+}
+
+.hero_3 p{
+  text-align: center;
+  font-size: 40px;
+  margin: 20px;
+}
+ 
+.hero_3 button{
+  /* translate: 620px */
+}
+
+.hero_3 .get_started{
+  background-color: #0b0c17f1;
+  color: white;
+}
+.hero_3 .learn_about_hiring{
+  /* background-color: white; */
+  color: rgb(0, 0, 0);
+}
+
+.hero_3 a{
+
+   display: flex;
+   justify-content: center;
+   font-size: 25px;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+.hero_4{
+  height: 100%px;
+  width: 100%;
+  /* background-color: blue; */
+  display: flex;
+  /* margin: 5px; */
+  justify-content: space-around;
+}
+
+.animation{
+   /* height: 300px; */
+  /* width: 200px;
+  display: flex; */
+  /* margin: 5px; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content:space-between; */
+  /* align-items: center; */
+}
+
+.hero_4 .part_1{
+  height: 250px;
+  width: 200px;
+  /* background-color: aqua; */
+  background-image: url(https://cdn.dribbble.com/userupload/16788687/file/original-9c4faca91929d68ffa2361f7055dd517.png?resize=640x480&vertical=center);
+  background-position: center;
+  background-size: cover;
+}
+ .hero_4 .text11{
+  height: 50px;
+  width: 200px;
+  /* background-color: #0c7851; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+
+
+
+
+.hero_4 .part_2{
+  height: 250px;
+  width: 200px;
+  /* background-color: aqua; */
+  background-image: url(https://cdn.dribbble.com/userupload/16802099/file/original-bdd53805d429cd02d8e7840de0388be1.png?resize=640x480&vertical=center);
+  background-position: center;
+  background-size: cover;
+}
+
+ .hero_4 .text12{
+  height: 50px;
+  width: 200px;
+  /* background-color: #0c7851; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.hero_4 .part_3{
+  height: 250px;
+  width: 200px;
+  /* background-color: aqua; */
+  background-image: url(https://cdn.dribbble.com/userupload/16803031/file/original-e94732b15a120e775c10e4b361711560.png?resize=640x480&vertical=center);
+  background-position: center;
+  background-size: cover;
+}
+
+ .hero_4 .text13{
+  height: 50px;
+  width: 200px;
+  /* background-color: #0c7851; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.hero_4 .part_4{
+  height: 250px;
+  width: 200px;
+  /* background-color: aqua; */
+  background-image: url(https://cdn.dribbble.com/userupload/16802471/file/original-845c27477261e830bc5a14f4b192b959.jpg?crop=0x0-1600x1200&resize=640x480&vertical=center);
+  background-position: center;
+  background-size: cover;
+}
+
+ .hero_4 .text14{
+  height: 50px;
+  width: 200px;
+  /* background-color: #0c7851; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+/* ||||||||||||||||||||||||||||||||||||||||||||||||||||| */
+footer{
+  height: 200px;
+  width: 100%;
+  /* background-color: brown; */
+}
+
+.footer_nav_1{
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background: #4ab3dc; */
+  font-size: 20px;
+  font-weight: lighter;
+  /* margin-left: 15px; */
+  /* margin: 15px; */
+}
+
+
+.footer_nav_1 .part_1{
+  padding: 20px;
+
+}
+
+.footer_nav_1 .part2 ul{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.footer_nav_2{
+  /* text-align: center; */
+display: flex;
+justify-content: center;
+padding: 25px;
+}
